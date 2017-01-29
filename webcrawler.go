@@ -8,6 +8,6 @@ import (
 func main() {
 	fmt.Printf("Starting crawlerclient")
 	domain := "michaelokarimia.com"
-	output := crawlerclient.Crawlerclient(domain)
+	output := crawlerclient.GetUrls(domain)
 	fmt.Printf(output)
 }
